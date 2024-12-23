@@ -1,0 +1,6 @@
+<!ELEMENT Root (Notes+)>
+<!ELEMENT Notes (code_apogee, ModuleName, ElementName, Grade)>
+<!ELEMENT code_apogee (#PCDATA)>
+<!ELEMENT ModuleName (#PCDATA)>
+<!ELEMENT ElementName (#PCDATA)>
+<!ELEMENT Grade (#PCDATA)>

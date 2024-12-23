@@ -1,0 +1,9 @@
+<!ELEMENT Root (Students+)>
+<!ELEMENT Students (code_apogee, CIN, CNE, Nom, Prenom, Lieu_Naissance, Date_Naissance)>
+<!ELEMENT code_apogee (#PCDATA)>
+<!ELEMENT CIN (#PCDATA)>
+<!ELEMENT CNE (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Lieu_Naissance (#PCDATA)>
+<!ELEMENT Date_Naissance (#PCDATA)>
